@@ -1,0 +1,43 @@
+name: sparkle
+description: "A FOSS Shiny Hunt Counter App"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  image_path: "assets/logo/Sparkle.png"
+  android: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/normal_sprites/gen1/
+    - assets/normal_sprites/gen2/
+    - assets/normal_sprites/gen3/
+    - assets/normal_sprites/gen4/
+    - assets/normal_sprites/gen5/
+    - assets/normal_sprites/gen6/
+    - assets/normal_sprites/gen7/
+    - assets/normal_sprites/gen8/
+    - assets/normal_sprites/gen9/
+    - assets/shiny_sprites/gen1/
+    - assets/shiny_sprites/gen2/
+    - assets/shiny_sprites/gen3/
+    - assets/shiny_sprites/gen4/
+    - assets/shiny_sprites/gen5/
+    - assets/shiny_sprites/gen6/
+    - assets/shiny_sprites/gen7/
+    - assets/shiny_sprites/gen8/
+    - assets/shiny_sprites/gen9/
