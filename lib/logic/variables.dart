@@ -6,7 +6,6 @@ const int pokeradarodds = 200;
 const int gen4masudaodds = 1638;
 const int gen5masudaodds = 1365;
 const int masudacurrentodds = 683;
-const int xyhordes = 4096; 
 const int gen6chainfishing = 100;
 const int orasdexnav = 512;
 const int friendsafari = 819;
@@ -22,6 +21,7 @@ const int shinycharmoddscurrent = 1365;
 const int gen5shinycharmasudaodds = 1024;
 const int shinycharmasudacurrentodds = 512;
 const int gen6shinycharmchainfishings = 96;
+const int orasdexnavshinycharm = 201;
 const int shinycharmfriendsafari = 585;
 const int shiycharmgen7SOSodds = 273;
 const int gen8shinycharmdynamaxadventuresodds = 100;
@@ -112,9 +112,9 @@ const Map<String, Map<String, bool>> gameFeatures = {
 
 // All shiny methods for each game from gen 1 to gen 9
 const Map<String, List<String>> huntMethods = {
-  'Pokémon Red': ['Soft Reset', 'Fishing'],
-  'Pokémon Blue': ['Soft Reset', 'Fishing'],
-  'Pokémon Yellow': ['Soft Reset', 'Fishing'],
+  'Pokémon Red': ['Soft Reset', 'Fishing', 'Trainer Escape Glitch'],
+  'Pokémon Blue': ['Soft Reset', 'Fishing','Trainer Escape Glitch'],
+  'Pokémon Yellow': ['Soft Reset', 'Fishing','Trainer escape Glitch'],
   'Pokémon Gold': ['Wild Encounters', 'Soft Reset', 'Shiny Genes', 'Breeding', 'Fishing'],
   'Pokémon Silver': ['Wild Encounters', 'Soft Reset', 'Shiny Genes', 'Breeding', 'Fishing'],
   'Pokémon Crystal': ['Wild Encounters', 'Soft Reset', 'Shiny Genes', 'Breeding', 'Fishing'],
