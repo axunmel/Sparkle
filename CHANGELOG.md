@@ -6,9 +6,9 @@ All notable changes to this project will be documented in this file.
 <!--ENTER CHANGELOG HERE-->
 
 ## 0.2.0 - 2025-12-04
- -Added Trainer Escape Glitch hunting method for gen 1.
- -Added Shiny Charm odds for all gens.
- -Modified the size of the pokedex number for each pokémon on the pokedex screen.
+ - Added Trainer Escape Glitch hunting method for gen 1.
+ - Added Shiny Charm odds for all gens.
+ - Modified the size of the pokedex number for each pokémon on the pokedex screen.
 
 
 ## 0.1.0 - 2025-11-26
